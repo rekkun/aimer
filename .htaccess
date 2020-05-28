@@ -1,4 +1,8 @@
-AuthName "Section Name"
+//Password Protect file
+<Files /index.html>
+AuthName "Prompt"
 AuthType Basic
-AuthUserFile /app/.htpasswd
+AuthUserFile /.htpasswd
 Require valid-user
+</Files>
+ 
